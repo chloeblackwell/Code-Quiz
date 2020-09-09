@@ -13,7 +13,8 @@ h4 {
 
 #main {
     text-align: center;
-    margin-top: 200px;
+    font-size: 30px;
+    margin-top: 100px;
 }
 
 #timer {
@@ -33,7 +34,13 @@ h1 {
 }
 
 button {
-    background-color: rebeccapurple;
+    background-color:pink;
     text-align: center;
+    font-size: 20px;
 
+}
+
+li {
+    background-color: gray;
+    margin-top: 10px;
 }

@@ -72,7 +72,7 @@ function render(questionIndex) {
     }
 
     userOptions.forEach(function (newOption) {
-        var optionList = document.createElement("li", "button");
+        var optionList = document.createElement("li");
         optionList.textContent = newOption;
         questions.appendChild(ulNew);
         ulNew.appendChild(optionList);
@@ -84,7 +84,7 @@ function compare(event) {
 
     var element = event.target;
 
-    if (element.matches("li", "button")) {
+    if (element.matches("li")) {
 
       var wording = document.createElement("h3");
       wording.setAttribute("id", "wording");
@@ -159,6 +159,8 @@ function finished() {
     submit.setAttribute("type","submit");
     submit.setAttribute("id", "submit");
     submit.textContent = "Submit";
+
+    questions.appendChild(submit);
 
     // Local storage for highscores and event listener 
 
