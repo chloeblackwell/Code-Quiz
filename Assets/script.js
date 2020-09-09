@@ -72,7 +72,7 @@ function render(questionIndex) {
     }
 
     userOptions.forEach(function (newOption) {
-        var optionList = document.createElement("button");
+        var optionList = document.createElement("li", "button");
         optionList.textContent = newOption;
         questions.appendChild(ulNew);
         ulNew.appendChild(optionList);
@@ -84,7 +84,7 @@ function compare(event) {
 
     var element = event.target;
 
-    if (element.matches("button")) {
+    if (element.matches("li", "button")) {
 
       var wording = document.createElement("h3");
       wording.setAttribute("id", "wording");
@@ -156,7 +156,7 @@ function finished() {
     // Submit Button 
 
     var submit = document.createElement("button");
-    submit.setAttribute("type", "submit");
+    submit.setAttribute("type","submit");
     submit.setAttribute("id", "submit");
     submit.textContent = "Submit";
 

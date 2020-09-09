@@ -1,13 +1,9 @@
-.quiz {
-    text-align: center;
-    margin-top: 100px;
-}
-
 .start-quiz {
     background-color: pink;
     margin: auto;
     display: block;
     margin-top: 75px;
+    font-size: 20px;
 }
 
 h4 {
@@ -17,4 +13,27 @@ h4 {
 
 #main {
     text-align: center;
+    margin-top: 200px;
+}
+
+#timer {
+    float: right;
+    font-size: 25px;
+}
+
+.back,
+.clear {
+    background-color: pink;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    background-color: rebeccapurple;
+    text-align: center;
+
 }
