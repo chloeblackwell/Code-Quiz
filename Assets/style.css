@@ -1,0 +1,17 @@
+.quiz {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.start-quiz {
+    background-color: pink;
+    margin: auto;
+    display: block;
+    margin-top: 75px;
+}
+
+h4 {
+    text-align: center;
+    margin: 150px;
+}
+
