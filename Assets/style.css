@@ -44,3 +44,7 @@ li {
     background-color: gray;
     margin-top: 10px;
 }
+
+ul {
+    list-style-type: none;
+}
