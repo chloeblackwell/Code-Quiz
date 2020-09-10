@@ -17,6 +17,10 @@ SO THAT I can gauge my progress to my peers
 
 ## Screenshots 
 
+<img src="assets/images/Start.png">
+<img src="assets/images/Middle.png">
+<img src="assets/images/End.png">
+
 ## License 
 
 This application does not have a license.
