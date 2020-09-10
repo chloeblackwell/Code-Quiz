@@ -17,9 +17,9 @@ SO THAT I can gauge my progress to my peers
 
 ## Screenshots 
 
-<img src="assets/images/Start.png">
-<img src="assets/images/Middle.png">
-<img src="assets/images/End.png">
+<img src="Assets/images/Start.png">
+<img src="Assets/images/Middle.png">
+<img src="Assets/images/End.png">
 
 ## License 
 
@@ -27,7 +27,7 @@ This application does not have a license.
 
 ## Link to the app
 
-<a href="https://chloeblackwell.github.io/Code-Quiz/."<Link to the application></a>
+<a href="https://chloeblackwell.github.io/Code-Quiz/.">Link to the application></a>
 
 ## Author 
 
