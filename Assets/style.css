@@ -48,3 +48,8 @@ li {
 ul {
     list-style-type: none;
 }
+
+header {
+    background-color: lightcyan;
+    height: 75px;
+}

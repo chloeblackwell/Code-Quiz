@@ -91,11 +91,11 @@ function compare(event) {
       
       if (element.textContent == questionsArray[questionIndex].answerId) {
           score++;
-          wording.textContent = "Correct!" + questionsArray[questionIndex].answerId;
+          wording.textContent = "Correct!" 
       } else { 
           // Deducts 15 seconds off time for all wrong answers
           secondsLeft = secondsLeft - penalty;
-          wording.textContent = "Wrong!" + questionsArray[questionIndex].answerId;
+          wording.textContent = "Wrong!" 
       }
     };
 
