@@ -11,7 +11,7 @@ clear.addEventListener('click', function () {
     location.reload();
 });
 
-var combinedScores = localStorage.getItem("combinedScores");
+var combinedScores = localStorage.getItem('combinedScores');
 combinedScores = JSON.parse(combinedScores);
 
 if (combinedScores !== null) {
