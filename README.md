@@ -27,7 +27,7 @@ This application does not have a license.
 
 ## Link to the app
 
-<a href="https://chloeblackwell.github.io/Code-Quiz/.">Link to the application></a>
+<a href="https://chloeblackwell.github.io/Code-Quiz/.">Link to the application</a>
 
 ## Author 
 
